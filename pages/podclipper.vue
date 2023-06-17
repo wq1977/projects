@@ -1,3 +1,11 @@
+<script setup lang="ts">
+useHead({
+    title: '播客快剪',
+    meta: [
+        { name: 'description', content: '一个基于AI的播客编辑工具.' }
+    ],
+})
+</script>
 <template>
     <div class="app">
         <h1>播客快剪</h1>
