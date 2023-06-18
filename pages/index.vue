@@ -3,12 +3,16 @@ const apps = [
     { name: 'PodClipper', description: '一个通过AI进行语音识别然后通过编辑Word的方式编辑声音的工具' },
     { name: 'YTWrap', description: '一个支持下载 Twitter 和 Youtube、Tiktok 等网站视频的 Android 程序' },
 ]
+const goto = function (app) {
+    const router = useRouter()
+    router.push({ path: `/${app.name.toLowerCase()}` })
+}
 </script>
 <template>
     <div class="app">
         <h1>我写的一些程序</h1>
         <div class="apps">
-            <div class="appblock" :title="app.description" v-for="app in apps">
+            <div @click="goto(app)" class="appblock" :title="app.description" v-for="app in apps">
                 <img :src="`/images/${app.name.toLowerCase()}.png`" style="width:5em;height:5em;">
                 <span class="name">{{ app.name }}</span>
             </div>
