@@ -8,7 +8,7 @@ useHead({
 </script>
 <template>
     <div class="app">
-        <h1>播客快剪</h1>
+        <h1><img src="/images/podclipper.png" style="width:1em;height:1em;margin-right: 0.2em;" />播客快剪</h1>
         <div>
             <img class="cover" src="/images/podclipper.jpg" />
         </div>
@@ -75,24 +75,6 @@ useHead({
     </div>
 </template>
 <style scoped>
-.app {
-    max-width: 800px;
-    margin: 0 auto;
-}
-
-.cover {
-    width: 100%;
-    height: auto;
-}
-
-.subtitle {
-    font-size: medium;
-    font-weight: bold;
-    line-height: 200%;
-    text-align: justify;
-    margin-top: 1em;
-}
-
 .qa {
     padding: 2em 0;
     line-height: 200%;
