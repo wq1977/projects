@@ -1,6 +1,6 @@
 <script setup lang="ts">
 useHead({
-    title: '播客快剪',
+    title: 'PodClipper',
     meta: [
         { name: 'description', content: '一个基于AI的播客编辑工具.' }
     ],
@@ -8,12 +8,12 @@ useHead({
 </script>
 <template>
     <div class="app">
-        <h1><img src="/images/podclipper.png" style="width:1em;height:1em;margin-right: 0.2em;" />播客快剪</h1>
+        <h1><img src="/images/podclipper.png" style="width:1em;height:1em;margin-right: 0.2em;" />PodClipper</h1>
         <div>
             <img class="cover" src="/images/podclipper.jpg" />
         </div>
         <div class="subtitle">
-            播客快剪是一个快速编辑播客的工具，作者自己的播客“四十不惑”的每一期都是用这个工具剪的，编辑声音最大的一个痛点是无法通过波形直接看出来内容，所以这个工具最大的特点是会先通过AI手段进行语音识别，然后就可以像编辑word一样编辑声音了。还可以在文本中间插入段落注释，以便更条理的梳理播客内容，欢迎体验，欢迎留言。
+            PodClipper(播客快剪)是一个快速编辑播客的工具，作者自己的播客“四十不惑”的每一期都是用这个工具剪的，编辑声音最大的一个痛点是无法通过波形直接看出来内容，所以这个工具最大的特点是会先通过AI手段进行语音识别，然后就可以像编辑word一样编辑声音了。还可以在文本中间插入段落注释，以便更条理的梳理播客内容，欢迎体验，欢迎留言。
         </div>
         <div class="qa">
             <h2>Q&A</h2>
