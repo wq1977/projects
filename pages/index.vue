@@ -1,6 +1,7 @@
 <script setup>
 const apps = [
     { name: 'PodClipper', description: '一个通过AI进行语音识别然后通过编辑Word的方式编辑声音的工具' },
+    { name: 'KalaFun', description: '一个通过AI进行人声分离,语音识别自动制作KalaOK伴奏的工具' },
     { name: 'YTWrap', description: '一个支持下载 Twitter 和 Youtube、Tiktok 等网站视频的 Android 程序' },
 ]
 const goto = function (app) {
