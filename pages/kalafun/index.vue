@@ -8,7 +8,7 @@ useHead({
 </script>
 <template>
     <div class="app">
-        <h1><img src="/images/kalafun.png" style="width:1em;height:1em;margin-right: 0.2em;" />PodClipper</h1>
+        <h1><img src="/images/kalafun.png" style="width:1em;height:1em;margin-right: 0.2em;" />KalaFun</h1>
         <div>
             <img class="cover" src="/images/kalafun.jpg" />
         </div>
