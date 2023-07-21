@@ -14,6 +14,8 @@ useHead({
         </div>
         <div class="subtitle">
             PodClipper(播客快剪)是一个快速编辑播客的工具，作者自己的播客“四十不惑”的每一期都是用这个工具剪的，编辑声音最大的一个痛点是无法通过波形直接看出来内容，所以这个工具最大的特点是会先通过AI手段进行语音识别，然后就可以像编辑word一样编辑声音了。还可以在文本中间插入段落注释，以便更条理的梳理播客内容，欢迎体验，欢迎留言。
+            目前暂时只支持苹果芯片的Mac电脑，下载地址： <a
+                href="https://apps.apple.com/us/app/id6450293283">https://apps.apple.com/us/app/id6450293283</a>
         </div>
         <div class="qa">
             <h2>Q&A</h2>

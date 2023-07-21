@@ -14,6 +14,8 @@ useHead({
         </div>
         <div class="subtitle">
             KalaFun 是一个快速制作KalaOK的工具，内嵌了离线的人工智能引擎以实现自动分离伴奏，自动语音识别创建字幕等功能，是目前最简单的卡拉OK制作工具。
+            目前只支持苹果芯片的Mac电脑，下载地址： <a
+                href="https://apps.apple.com/app/id6451092677">https://apps.apple.com/app/id6451092677</a>
         </div>
         <div class="qa">
             <h2>Q&A</h2>
